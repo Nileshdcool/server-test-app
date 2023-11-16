@@ -1,0 +1,114 @@
+@import "../App.scss";
+.inputWrapper {
+  .ant-picker {
+    border: 0px;
+  }
+  .ant-picker-focused {
+    box-shadow: none;
+  }
+
+  .ant-select {
+    .ant-select-selector {
+      border: 0px;
+    }
+  }
+
+  position: relative;
+  display: flex;
+  flex-direction: column-reverse;
+  border-bottom: 2px solid $primary_color;
+  label {
+    color: $placeholder_color;
+    font-size: 14px;
+    position: absolute;
+  }
+  label,
+  input {
+    border: 0px;
+    transition: all 0.2s;
+    touch-action: manipulation;
+  }
+  input:valid {
+    background: white;
+  }
+  input:focus {
+    outline: 0px;
+    box-shadow: none;
+    // opacity: inherit;
+  }
+
+  #datePickerLabel,
+  input:focus + label {
+    cursor: text;
+    max-width: 66.66%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transform-origin: top left;
+    transform: translate(0, -1.5rem) scale(0.75);
+  }
+}
+
+.transparentWrapper {
+  label {
+    z-index: 19;
+  }
+
+  input {
+    z-index: 20;
+    opacity: 0;
+  }
+}
+
+.labelWrapper {
+  .labelName {
+    font-size: 14px;
+    color: $primary_color;
+  }
+  .labelData {
+    font-weight: bold;
+    font-size: 16px;
+    color: $primary_dark_color;
+  }
+}
+
+.tableWrapper {
+  .ant-table-thead {
+    tr {
+      th {
+        background-color: $primary_color;
+        color: white;
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+.mainCards {
+  .dashboardCard {
+    background-color: $primary_color;
+    color: white;
+    box-shadow: 0px 0px 20px rgb(189, 186, 186);
+    border-radius: 10px;
+  }
+  .dashboardCard:hover {
+    margin-bottom: 4px;
+    color: $primary_color;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: White;
+    box-shadow: 0px 0px 20px gray;
+    transition: 0.3s;
+    animate: glow;
+  }
+  margin-bottom: 4px;
+  letter-spacing: 1px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}

@@ -1,0 +1,11 @@
+
+@media screen and (min-device-width: 320px) and (max-device-width: 621px) { 
+   .mobileContainer {
+       margin: 0px 0px 0px 0px !important;
+       padding: 10px !important;
+    }
+
+    .mobileFont{
+        font-size: 1.1rem !important;
+    }
+}

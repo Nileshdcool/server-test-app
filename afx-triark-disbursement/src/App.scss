@@ -1,0 +1,160 @@
+$navbarHeight: 64px;
+$primary_color: #0D6BC8;
+$primary_dark_color: #09204c;
+$background_color: #f8f9fa;
+$placeholder_color: rgba(0, 0, 0, 0.54);
+
+body {
+  font-family: "Nunito", "sans-serif";
+}
+
+.ant-layout {
+  font-family: "Nunito", "sans-serif";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  .ant-layout-header {
+    width: 100%;
+    height: $navbarHeight;
+    background: $background_color;
+    padding: 10px 10px;
+    position: fixed;
+    text-align: center;
+    z-index: 1;
+    .headerRow {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+      img {
+        max-height: 35px;
+      }
+      .title {
+        font-size: 18px;
+        font-weight: 800;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: $primary_dark_color;
+        max-height: 35px;
+      }
+    }
+  }
+  .ant-layout-content {
+    .ant-spin-spinning {
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+}
+
+.bodyWrapper {
+  padding-top: $navbarHeight; // same as the height of top navbar
+  width: 100%;
+  min-height: 100vh;
+  height: 100%;
+  background: transparent;
+  .bodyContainer {
+    background-color: white;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px 0 rgba(181, 166, 166, 0.5);
+    margin: 0 7%;
+  }
+  .reset-button {
+    color: $primary_color;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.17px;
+    min-width: 110px;
+    height: 38px;
+    border-radius: 100px;
+    border: solid 2px $primary_color;
+    background-color: #ffff;
+  }
+  .save-button {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.17px;
+    min-width: 110px;
+    height: 38px;
+    border-radius: 100px;
+    border: solid 2px $primary_color;
+    background-color: $primary_color;
+  }
+  .ant-radio-checked .ant-radio-inner {
+    border-color: #0D6BC8 !important;
+  }
+
+  .ant-radio-inner::after {
+    background-color: #0D6BC8 !important;
+  }
+
+  .ant-radio-checked::after {
+    border: 1px solid #0D6BC8 !important;
+  }
+
+  .ant-radio-checked .ant-radio-inner:after {
+    background-color: #0D6BC8 !important;
+  }
+
+  .ant-radio:hover .ant-radio-inner {
+    border-color: #0D6BC8 !important;
+  }
+}
+
+.caseListing-row {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+}
+
+.textField-mb-1 {
+  margin-bottom: 1rem !important;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.mr-2 {
+  margin-right: 20px;
+}
+.mr-1 {
+  margin-right: 10px;
+}
+.ml-2 {
+  margin-left: 20px;
+}
+.ml-1 {
+  margin-left: 10px;
+}
+.pr-1 {
+  padding-right: 10px;
+}
+
+.save-button {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.17px;
+  min-width: 110px;
+  height: 38px;
+  border-radius: 100px;
+  border: solid 2px $primary_color;
+  background-color: $primary_color;
+}

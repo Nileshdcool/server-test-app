@@ -1,0 +1,56 @@
+
+.caseSummaryContainer {
+  .buttonRow {
+    button {
+      margin-right: 10px;
+    }
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.marginRight10 {
+  margin-right: 10px;
+}
+
+.radioGroup {
+  .ant-radio-checked .ant-radio-inner {
+    border-color: #0D6BC8;
+  }
+
+  .ant-radio-inner::after {
+    background-color: #0D6BC8;
+  }
+
+  .ant-radio-checked::after {
+    border: 1px solid #0D6BC8;
+  }
+
+  .ant-radio-checked .ant-radio-inner:after {
+    background-color: #0D6BC8;
+  }
+
+  .ant-radio:hover .ant-radio-inner {
+    border-color: #0D6BC8;
+  }
+}
+
+.itrContiner {
+  p {
+    cursor: pointer;
+  }
+}
+
+.fiWrapper{
+  margin-right: 6%;
+}
+
+.decTag{
+  .ant-tag{
+   height: 1.2rem;
+   width: 1.2rem;
+  }
+}
+

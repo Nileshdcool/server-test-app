@@ -1,0 +1,19 @@
+.deviationWrapper {
+  .ant-card-body {
+    .ant-row {
+      .ant-btn {
+        margin-right: 10px;
+      }
+    }
+  }
+  .finalDecision {
+    color: #09204c;
+    font-weight: bold;
+    padding-left: 10%;
+  }
+  .finalDecisionResult {
+    color: #334e9e;
+    font-weight: bold;
+    padding-left: 5%;
+  }
+}

@@ -1,0 +1,65 @@
+.caseSummaryContainer {
+  .buttonRow {
+    button {
+      margin-right: 10px;
+    }
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.marginRight10 {
+  margin-right: 10px;
+}
+
+.radioGroup {
+  .ant-radio-checked .ant-radio-inner {
+    border-color: #334e9e;
+  }
+
+  .ant-radio-inner::after {
+    background-color: #334e9e;
+  }
+
+  .ant-radio-checked::after {
+    border: 1px solid #334e9e;
+  }
+
+  .ant-radio-checked .ant-radio-inner:after {
+    background-color: #334e9e;
+  }
+
+  .ant-radio:hover .ant-radio-inner {
+    border-color: #334e9e;
+  }
+}
+
+.itrContiner {
+  p {
+    cursor: pointer;
+  }
+}
+
+.fiWrapper {
+  margin-right: 6%;
+}
+
+.decTag {
+  .ant-tag {
+    height: 1.2rem;
+    width: 1.2rem;
+  }
+}
+
+.MuiFormLabel-root
+  .MuiInputLabel-root
+  .MuiInputLabel-formControl
+  .MuiInputLabel-animated {
+  color: rgba(0, 0, 0, 0.54) !important;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+
