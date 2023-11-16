@@ -1,0 +1,23 @@
+{
+  "name": "server-test-app",
+  "version": "1.0.0",
+  "description": "this app is for testing server side configs on cloud platforms",
+  "main": "server.js",
+  "scripts": {
+    "start": "forever start server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nileshdcool/server-test-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nileshdcool/server-test-app/issues"
+  },
+  "homepage": "https://github.com/Nileshdcool/server-test-app#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
